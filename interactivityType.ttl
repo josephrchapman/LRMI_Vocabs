@@ -7,8 +7,9 @@
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix interactivity: <http://purl.org/dcx/lrmi-vocabs/interactivityType/> .
 
-<http://purl.org/dcx/lrmi-vocabs/interactivityType/> a skos:ConceptScheme ;
+interactivity: a skos:ConceptScheme ;
     dc:title "Interactivity Type Vocabulary"@en ;
     dcterms:description """Concepts defining the predominate interactivity mode of the 
         learning resource being described."""@en ;
@@ -16,44 +17,45 @@
         1484.12.1-202)."""@n ;        
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> .
 
-<http://purl.org/dcx/lrmi-vocabs/InteractivityType/active> a skos:Concept ;
-    skos:prefLabel "Active"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityFeature/label-active> ;
-    skos:altLabel "active"@en ;    
+interactivity:active a skos:Concept ;
+    skos:prefLabel "active"@en ;
+    skosxl:preflabel interactivity:label-active ;   
     skos:definition """\"Existing in action, working, effective, having practical operation 
         or result\" (OED)."""@en ;
     dcterms:source """Based on the IEEE Learning Object Metadata standard (IEEE 
         1484.12.1-202 (LOMv1.0))."""@n ;
     vs:term_status "unstable" ;
-    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/interactivityType/> .
+    skos:inScheme interactivity: .
     
-<http://purl.org/dcx/lrmi-vocabs/interactivityType/expositive> a skos:Concept ;
-    skos:prefLabel "Expositive"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/InteractivityType/label-expositive> ;
-    skos:altLabel "expositive"@en ;    
+interactivity:expositive a skos:Concept ;
+    skos:prefLabel "expositive"@en ;
+    skosxl:preflabel interactivity:label-expositive ;  
     skos:definition """\"Tending to set forth or describe in detail; descriptive; serving 
         to explain\" (OED)."""@en ;
     dcterms:source """Based on the IEEE Learning Object Metadata standard (IEEE 
         1484.12.1-202 (LOMv1.0))."""@n ;
     vs:term_status "unstable" ;
-    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/interactivityType/> .
+    skos:inScheme interactivity: .
     
-<http://purl.org/dcx/lrmi-vocabs/interactivityType/mixed> a skos:Concept ;
-    skos:prefLabel "Mixed"@en ;
-    skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/InteractivityType/label-mixed> ;
-    skos:altLabel "mixed"@en ;
+interactivity:mixed a skos:Concept ;
+    skos:prefLabel "mixed"@en ;
+    skosxl:preflabel interactivity:label-mixed ;
     skos:definition """\"Consisting of different or dissimilar elements or qualities; not 
         of one kind; not pure or simple; composite\" (OED)."""@en ;
     dcterms:source """Based on IEEE Learning Object Metadata standard (IEEE 
         1484.12.1-202 (LOMv1.0))."""@n ;
     vs:term_status "unstable" ;
-    skos:inScheme <http://purl.org/dcx/lrmi-vocabs/interactivityType/> . 
+    skos:inScheme interactivity: . 
     
-<http://purl.org/dcx/lrmi-vocabs/interactivityType/label-active> a skosxl:label ;
+#============================= 
+# EXTENDED LABELS
+#=============================     
+    
+interactivity:label-active a skosxl:label ;
     skosxl:literalForm "Active"@en . 
     
-<http://purl.org/dcx/lrmi-vocabs/interactivityType/label-expositive> a skosxl:label ;
+interactivity:label-expositive a skosxl:label ;
     skosxl:literalForm "Expositive"@en .
     
-<http://purl.org/dcx/lrmi-vocabs/interactivityType/label-mixed> a skosxl:label ;
+interactivity:label-mixed a skosxl:label ;
     skosxl:literalForm "Mixed"@en . 
