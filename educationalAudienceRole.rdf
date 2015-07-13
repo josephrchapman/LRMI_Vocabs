@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+    >
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/administrator">
+        <skos:prefLabel xml:lang="en">administrator</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/"/>
+        <vs:term_status>unstable</vs:term_status>
+        <skos:definition xml:lang="en">A district or school level person of authority and responsibility</skos:definition>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-administrator"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-peerTutor">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">peer/tutor</skosxl:literalForm>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/student">
+        <skos:narrower rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/peer-tutor"/>
+        <vs:term_status>unstable</vs:term_status>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">student</skos:prefLabel>
+        <skos:definition xml:lang="en">The learner.</skos:definition>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-student"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/parent">
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/"/>
+        <skos:prefLabel xml:lang="en">parent</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <vs:term_status>unstable</vs:term_status>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-parent"/>
+        <skos:definition xml:lang="en">A parent or legal guardian.</skos:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-generalPublic">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">general public</skosxl:literalForm>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-student">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">student</skosxl:literalForm>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/peerTutor">
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi/educationalAudienceRole/"/>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-peerTutor"/>
+        <skos:broader rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/student"/>
+        <skos:prefLabel xml:lang="en">peer/tutor</skos:prefLabel>
+        <vs:term_status>unstable</vs:term_status>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The peer learner serving as tutor of another learner.</skos:definition>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-parent">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">parent</skosxl:literalForm>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/mentor">
+        <skos:prefLabel xml:lang="en">mentor</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/"/>
+        <vs:term_status>unstable</vs:term_status>
+        <skos:definition xml:lang="en">Someone who advises, trains, supports, and/or guides.</skos:definition>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-mentor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-teacher-educationSpecialist">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">teacher/education specialist</skosxl:literalForm>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/">
+        <dc:title>LRMI Educational Audience Role Vocabulary</dc:title>
+        <dc:creator xml:lang="en">LRMI Task Group (DCMI)</dc:creator>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/ ;&#10;  adms:status &lt;http://purl.org/dcx/lrmi-vocabs/docStatus/draft"/>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-21</dcterms:created>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-professional">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">professional</skosxl:literalForm>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/teacher-educationSpecialist">
+        <skos:definition xml:lang="en">A certified person directly involved with student instruction.</skos:definition>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/"/>
+        <vs:term_status>unstable</vs:term_status>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-teacher-educationSpecialist"/>
+        <skos:prefLabel xml:lang="en">teacher/education specialist</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/professional">
+        <skos:prefLabel xml:lang="en">professional</skos:prefLabel>
+        <skos:definition xml:lang="en">Someone already practicing a profession; an industry partner, or professional development trainer.</skos:definition>
+        <vs:term_status>unstable</vs:term_status>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/educationalAudienceRole/"/>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-professional"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-administrator">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">administrator</skosxl:literalForm>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/generalPublic">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Public at large.</skos:definition>
+        <skosxl:preflabel rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-generalPublic"/>
+        <skos:prefLabel xml:lang="en">general public</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/"/>
+        <vs:term_status>unstable</vs:term_status>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/label-mentor">
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#label"/>
+        <skosxl:literalForm xml:lang="en">mentor</skosxl:literalForm>
+    </rdf:Description>
+</rdf:RDF>
+
+

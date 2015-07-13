@@ -7,10 +7,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix alignment: <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
 
 alignment: a skos:ConceptScheme ;
-    dc:description "Describes the types of relationships between a learning resource and an AlighmentObject."@en ;
+    dc:description """Describes the types of relationships between a learning resource 
+        and an AlighmentObject."""@en ;
     dc:title "LRMI Alignment Type Vocabulary"@en ;
     dcterms:created "2015-01-21"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
@@ -19,37 +21,53 @@ alignment: a skos:ConceptScheme ;
 alignment:assesses: a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "assesses"@en ;
-    skosxl:preflabel alignment:label-assesses . 
+    skosxl:preflabel alignment:label-assesses ;
+    skos:definition """The resource being described evaluates learner achivement of the competency 
+        being referenced."""@en;    
+    vs:term_status "unstable" . 
 
 alignment:teaches a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "teaches"@en ;
-    skosxl:preflabel alignment:label-teaches .         
+    skosxl:preflabel alignment:label-teaches ;
+    skos:definition """The resource being described instructs, imparts or conveys the 
+        knowledge, skill, or habit of mind required by the competency being referenced"""@en;     
+    vs:term_status "unstable" .         
 
 alignment:requires a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "requires"@en ;
-    skosxl:preflabel alignment:label-requires .    
+    skosxl:preflabel alignment:label-requires ;
+    skos:definition """A resource necessary to the effective use or intended outcome of the 
+        resource being described."""@en;    
+    vs:term_status "unstable" .    
 
 alignment:textComplexity a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "text complexity"@en ;
-    skosxl:preflabel alignment:label-textComplexity .    
+    skosxl:preflabel alignment:label-textComplexity ;
+    skos:definition "A measure of the textual difficulty of the resource being described."@en;    
+    vs:term_status "unstable" .    
 
 alignment:readingLevel a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "reading level"@en ;
-    skosxl:preflabel alignment:label-readingLevel .    
+    skosxl:preflabel alignment:label-readingLevel ;
+    vs:term_status "unstable" .    
 
 alignment:educationalSubject a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "educational subject"@en ;
-    skosxl:preflabel alignment:label-educationalSubject .     
+    skosxl:preflabel alignment:label-educationalSubject ;
+    vs:term_status "unstable" .     
 
 alignment:educationalLevel a skos:Concept ;
     skos:inScheme alignment: ;
     skos:prefLabel "educational level"@en ;
-    skosxl:preflabel alignment:label-educationalLevel .    
+    skosxl:preflabel alignment:label-educationalLevel ;
+    skos:definition """A class of entity, defined in terms of progression through an educational 
+        or training context, for which the described resource is intended."""@en ;
+    vs:term_status "unstable" .    
     
 #============================= 
 # EXTENDED LABELS
