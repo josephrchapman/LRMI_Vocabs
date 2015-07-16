@@ -50,6 +50,7 @@ interactivity:mixed a skos:Concept ;
 #============================= 
 # EXTENDED LABELS
 #=============================     
+<<<<<<< HEAD
     
 interactivity:label-active a skosxl:label ;
     skosxl:literalForm "Active"@en . 
@@ -59,3 +60,14 @@ interactivity:label-expositive a skosxl:label ;
     
 interactivity:label-mixed a skosxl:label ;
     skosxl:literalForm "Mixed"@en . 
+=======
+    
+interactivity:label-active a skosxl:label ;
+    skosxl:literalForm "active"@en . 
+    
+interactivity:label-expositive a skosxl:label ;
+    skosxl:literalForm "expositive"@en .
+    
+interactivity:label-mixed a skosxl:label ;
+    skosxl:literalForm "mixed"@en . 
+>>>>>>> master

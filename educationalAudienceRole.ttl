@@ -14,66 +14,67 @@
 
 audRole: a skos:ConceptScheme;
   dc:title "LRMI Educational Audience Role Vocabulary" ;
-  dc:creator "LRMI Task Group (DCMI)"@en ;
+  dc:creator "LRMI Task Group (DCMI)"@en-US ;
+  dcterms:description "The controlled vocabulary of roles describing the target audience of the content."@en-US ;
   dcterms:created "2015-01-21"^^xsd:date ;
   dcterms:license <http://creativecommons.org/licenses/by/4.0/ ;
   adms:status <http://purl.org/dcx/lrmi-vocabs/docStatus/draft> .  
   
 audRole:administrator a skos:Concept;
-  skos:prefLabel "administrator"@en;
+  skos:prefLabel "administrator"@en-US;
   skosxl:preflabel audRole:label-administrator ;  
-  skos:definition "A district or school level person of authority and responsibility"@en;
+  skos:definition "A district or school level person of authority and responsibility"@en-US;
   skos:inScheme <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/>;
   vs:term_status "unstable" .
 
 audRole:mentor a skos:Concept;
-  skos:prefLabel "mentor"@en;
+  skos:prefLabel "mentor"@en-US;
   skosxl:preflabel audRole:label-mentor ;   
-  skos:definition "Someone who advises, trains, supports, and/or guides."@en;
+  skos:definition "Someone who advises, trains, supports, and/or guides."@en-US;
   skos:inScheme <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/>;
   vs:term_status "unstable" .
 
 audRole:generalPublic a skos:Concept;
-  skos:prefLabel "general public"@en;
+  skos:prefLabel "general public"@en-US;
   skosxl:preflabel audRole:label-generalPublic ;   
-  skos:definition "The Public at large."@en;
+  skos:definition "The public at large."@en-US;
   skos:inScheme <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/>;
   vs:term_status "unstable" .
 
 audRole:parent a skos:Concept;
-  skos:prefLabel "parent"@en;
+  skos:prefLabel "parent"@en-US;
   skosxl:preflabel audRole:label-parent ;   
-  skos:definition "A parent or legal guardian."@en;
+  skos:definition "A parent or legal guardian."@en-US;
   skos:inScheme <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/>;
   vs:term_status "unstable" .
        
 audRole:professional a skos:Concept;
-  skos:prefLabel "professional"@en;
+  skos:prefLabel "professional"@en-US;
   skosxl:preflabel audRole:label-professional ;   
-  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en;
+  skos:definition "Someone already practicing a profession; an industry partner, or professional development trainer."@en-US;
   skos:inScheme <http://purl.org/dcx/educationalAudienceRole/>;
   vs:term_status "unstable" .
        
 audRole:student a skos:Concept;
-  skos:prefLabel "student"@en;
+  skos:prefLabel "student"@en-US;
   skosxl:preflabel audRole:label-student ;   
-  skos:definition "The learner."@en;
+  skos:definition "The learner."@en-US;
   skos:narrower audRole:peer-tutor;
   skos:inScheme <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/>;
   vs:term_status "unstable" .
   
 audRole:peerTutor a skos:Concept;
-  skos:prefLabel "peer/tutor"@en;
+  skos:prefLabel "peer/tutor"@en-US;
   skosxl:preflabel audRole:label-peerTutor ;   
-  skos:definition "The peer learner serving as tutor of another learner."@en;
+  skos:definition "The peer learner serving as tutor of another learner."@en-US;
   skos:broader audRole:student;
   skos:inScheme <http://purl.org/dcx/lrmi/educationalAudienceRole/>;
   vs:term_status "unstable" .
        
 audRole:teacher-educationSpecialist a skos:Concept;
-  skos:prefLabel "teacher/education specialist"@en;
+  skos:prefLabel "teacher/education specialist"@en-US;
   skosxl:preflabel audRole:label-teacher-educationSpecialist ;   
-  skos:definition "A certified person directly involved with student instruction."@en;
+  skos:definition "A certified person directly involved with student instruction."@en-US;
   skos:inScheme <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/>;
   vs:term_status "unstable" .
   
@@ -82,25 +83,25 @@ audRole:teacher-educationSpecialist a skos:Concept;
 #=============================    
     
 audRole:label-administrator a skosxl:label ;
-    skosxl:literalForm "administrator"@en .   
+    skosxl:literalForm "administrator"@en-US .   
     
 audRole:label-mentor a skosxl:label ;
-    skosxl:literalForm "mentor"@en .
+    skosxl:literalForm "mentor"@en-US .
     
 audRole:label-generalPublic a skosxl:label ;
-    skosxl:literalForm "general public"@en .
+    skosxl:literalForm "general public"@en-US .
     
 audRole:label-parent a skosxl:label ;
-    skosxl:literalForm "parent"@en .   
+    skosxl:literalForm "parent"@en-US .   
     
 audRole:label-professional a skosxl:label ;
-    skosxl:literalForm "professional"@en .
+    skosxl:literalForm "professional"@en-US .
     
 audRole:label-student a skosxl:label ;
-    skosxl:literalForm "student"@en .
+    skosxl:literalForm "student"@en-US .
     
 audRole:label-peerTutor a skosxl:label ;
-    skosxl:literalForm "peer/tutor"@en .
+    skosxl:literalForm "peer/tutor"@en-US .
     
 audRole:label-teacher-educationSpecialist a skosxl:label ;
-    skosxl:literalForm "teacher/education specialist"@en .             
+    skosxl:literalForm "teacher/education specialist"@en-US .             
