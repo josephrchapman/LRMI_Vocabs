@@ -1,5 +1,8 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/status/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix interactivity: <http://purl.org/dcx/lrmi-vocabs/interactivityType/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -7,9 +10,6 @@
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix interactivity: <http://purl.org/dcx/lrmi-vocabs/interactivityType/> .
-@prefix adms: <http://www.w3.org/ns/adms#> .
-@prefix bibo: <http://purl.org/ontology/bibo/status/> .
 
 interactivity: a skos:ConceptScheme ;
     dc:title "LRMI Interactivity Type Vocabulary"@en-US ;
@@ -35,7 +35,7 @@ interactivity:expositive a skos:Concept ;
     dcterms:source "Based on the IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."@en-US ;
     skos:inScheme interactivity: ;
     vs:term_status "unstable" .
-    
+
 interactivity:mixed a skos:Concept ;
     skos:prefLabel "mixed"@en-US ;
     skosxl:preflabel interactivity:label-mixed ;
@@ -43,16 +43,16 @@ interactivity:mixed a skos:Concept ;
     dcterms:source "Based on IEEE Learning Object Metadata standard (IEEE 1484.12.1-202 (LOMv1.0))."@en-US ;
     skos:inScheme interactivity: ;
     vs:term_status "unstable" .
-    
+
 #=============================
 # EXTENDED LABELS
 #=============================
 
 interactivity:label-active a skosxl:label ;
-    skosxl:literalForm "active"@en-US . 
+    skosxl:literalForm "active"@en-US .
 
 interactivity:label-expositive a skosxl:label ;
     skosxl:literalForm "expositive"@en-US .
 
 interactivity:label-mixed a skosxl:label ;
-    skosxl:literalForm "mixed"@en-US . 
+    skosxl:literalForm "mixed"@en-US .

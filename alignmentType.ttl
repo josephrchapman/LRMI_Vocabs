@@ -1,20 +1,20 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix alignment: <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
+@prefix bibo: <http://purl.org/ontology/bibo/status/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
-@prefix adms: <http://www.w3.org/ns/adms#> .
-@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
-@prefix bibo: <http://purl.org/ontology/bibo/status/> .
-@prefix alignment: <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
 
 alignment: a skos:ConceptScheme ;
     dc:description "A concept scheme that defines the types of relationships between a learning resource and a node in an educational framework."@en-US ;
     dc:title "LRMI Alignment Type Vocabulary"@en-US ;
-    dc:creator "LRMI Task Group (DCMI)"@en-US ; 
+    dc:creator "LRMI Task Group (DCMI)"@en-US ;
     dcterms:dateSubmitted "2015-01-21"^^xsd:date ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
     adms:status bibo:draft .
@@ -26,14 +26,14 @@ alignment:assesses: a skos:Concept ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Assesses."@en-US ;
     skos:inScheme alignment: ;
     vs:term_status "unstable" .
-    
+
 alignment:complexityLevel: a skos:Concept ;
     skos:prefLabel "complexity level"@en-US ;
     skosxl:preflabel alignment:label-complexityLevel ;
     skos:definition "The point in the framework being referenced defines a level or range that measures the difficulty or challenge presented by the learning resource being described."@en-US ;
     skos:scopeNote "Example frameworks include, but are not limited to, Bloom's Taxonomy, Norm Webb Depth of Knowledge (DOK), Biggs' SOLO taxonomy, Lexile(ª), and Quantile(ª)."@en-US ;
     skos:inScheme alignment: ;
-    vs:term_status "unstable" . 
+    vs:term_status "unstable" .
 
 alignment:educationalLevel a skos:Concept ;
     skos:prefLabel "educational level"@en-US ;
@@ -41,8 +41,8 @@ alignment:educationalLevel a skos:Concept ;
     skos:definition "The point in the framework being referenced defines an level or stage within an education system for which the resource being described is intended or useful."@en-US ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalLevel."@en-US ;
     skos:inScheme alignment: ;
-    vs:term_status "unstable" . 
-    
+    vs:term_status "unstable" .
+
 alignment:educationalSubject a skos:Concept ;
     skos:prefLabel "educational subject"@en-US ;
     skosxl:preflabel alignment:label-educationalSubject ;
@@ -51,7 +51,7 @@ alignment:educationalSubject a skos:Concept ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#EducationalSubject."@en-US ;
     skos:inScheme alignment: ;
     vs:term_status "unstable" .
-    
+
 alignment:prerequisite a skos:Concept ;
     skos:prefLabel "prerequisite"@en-US ;
     skosxl:preflabel alignment:label-prerequisite ;
@@ -59,7 +59,7 @@ alignment:prerequisite a skos:Concept ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000715."@en-US ;
     skos:inScheme alignment: ;
     vs:term_status "unstable" .
-    
+
 alignment:readingLevel a skos:Concept ;
     skos:prefLabel "reading level"@en-US ;
     skosxl:preflabel alignment:label-readingLevel ;
@@ -75,28 +75,28 @@ alignment:teaches a skos:Concept ;
     dcterms:source "Based on Common Education Data Standards (CEDS): https://ceds.ed.gov/element/000869#Teaches."@en-US ;
     skos:inScheme alignment: ;
     vs:term_status "unstable" .
-    
+
 #=============================
 # EXTENDED LABELS
 #=============================
-    
+
 alignment:label-assesses a skosxl:label ;
     skosxl:literalForm "assesses"@en-US .
-    
+
 alignment:label-complexityLevel a skosxl:label ;
-    skosxl:literalForm "complexity level"@en-US . 
-    
+    skosxl:literalForm "complexity level"@en-US .
+
 alignment:label-educationalLevel a skosxl:label ;
     skosxl:literalForm "educational level"@en-US .
-    
+
 alignment:label-educationalSubject a skosxl:label ;
     skosxl:literalForm "educational subject"@en-US .
-    
+
 alignment:label-prerequisite a skosxl:label ;
     skosxl:literalForm "prerequisite"@en-US .
-    
+
 alignment:label-readingLevel a skosxl:label ;
     skosxl:literalForm "reading level"@en-US .
-    
+
 alignment:label-teaches a skosxl:label ;
     skosxl:literalForm "teaches"@en-US .
