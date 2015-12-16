@@ -19,8 +19,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullKeyboardControl> ;
     skos:altLabel "fullKeyboardControl"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
@@ -33,8 +32,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullMouseControl> ;
     skos:altLabel "fullMouseControl"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
@@ -48,8 +46,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullSwitchControl> ;
     skos:altLabel "fullSwitchControl"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
@@ -63,8 +60,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullTouchControl> ;
     skos:altLabel "fullTouchControl"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .
@@ -78,8 +74,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVideoControl> ;
     skos:altLabel "fullVideoControl"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/label-accessibilityControl/> .
@@ -93,8 +88,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/label-fullVoiceControl> ;
     skos:altLabel "fullVoiceControl"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityControl/> .

@@ -20,8 +20,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AndroidAccessibility> ;
     skos:altLabel "AndroidAccessibility"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -33,8 +32,7 @@
     skos:prefLabel "ARIA"@en ;
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ARIA> ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -46,8 +44,7 @@
     skos:prefLabel "ATK"@en ;
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-ATK> ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -59,8 +56,7 @@
     skos:prefLabel "AT-SPI"@en ;
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-AT-SPI> ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -73,8 +69,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-BlackberryAccessibility> ;
     skos:altLabel "BlackberryAccessibility"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -87,8 +82,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iAccessible2> ;
     skos:altLabel "iAccessible2"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -101,8 +95,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-iOSAccessibility> ;
     skos:altLabel "iOSAccessibility"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -115,8 +108,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-JavaAccessibility> ;
     skos:altLabel "JavaAccessibility"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -129,8 +121,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-MacOSXAccessibility> ;
     skos:altLabel "MacOSXAccessibility"@en;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -143,8 +134,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-MSAA> ;
     skos:altLabel "Microsoft Active Accessibility" ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
@@ -157,8 +147,7 @@
     skosxl:preflabel <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/label-UIAutomation> ;
     skos:altLabel "UIAutomation"@en ;
     skos:definition "@@@"@en ;
-    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>,
-        <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
+    dcterms:source <http://www.w3.org/wiki/WebSchemas/Accessibility>, <http://www.a11ymetadata.org/the-specification/>, <http://www.imsglobal.org/accessibility/afav3p0pd/AfA3p0_DESinfoModel_v1p0pd.html#_Toc323719836> ;
     rdfs:seeAlso <http://www.idpf.org/accessibility/guidelines/content/meta/schema.org.php> ;
     vs:term_status "unstable" ;
     skos:inScheme <http://purl.org/dcx/lrmi-vocabs/accessibilityAPI/> .
